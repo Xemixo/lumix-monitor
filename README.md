@@ -2,7 +2,7 @@
 
 An unofficial Android live view monitor app for the Panasonic Lumix S5.
 
-The official Lumix Sync app has distracting UI elements and features which lack the option for hiding them , so this is a custom 
+The official Lumix Sync app has distracting UI elements and features that lack the option for hiding them , so this is a custom 
 alternative built from scratch by reverse engineering the camera's Wi-Fi API.
 
 ## Features
