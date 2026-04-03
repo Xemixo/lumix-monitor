@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <ImageView
+        android:id="@+id/liveView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="#88000000" />
+
+    <TextView
+        android:id="@+id/falseColorBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="24dp"
+        android:text="FALSE COLOR"
+        android:textColor="#FFF"
+        android:textSize="12sp"
+        android:padding="10dp"
+        android:background="#88000000" />
+    <TextView
+        android:id="@+id/vlogBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="24dp"
+        android:text="V-LOG"
+        android:textColor="#FFF"
+        android:textSize="12sp"
+        android:padding="10dp"
+        android:background="#88000000" />
+</FrameLayout>
